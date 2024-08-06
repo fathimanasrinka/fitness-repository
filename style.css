@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    background-image: url(images/f3.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar-brand img {
+    width: 110px;
+    height: 70px;
+    background-size: cover;
+}
+
+.btn.button {
+    border-radius: 50%;
+}
+
+#home {
+    margin-top: 100px;
+}
+
+#About {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#About .col-md-6 {
+    padding: 20px 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+/* Ensure images take full width of their container */
+img.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+/* Additional styling for responsiveness */
+@media (max-width: 768px) {
+    .row {
+        text-align: center;
+    }
+    .col-md-6 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .row {
+        display: block;
+    }
+    .col-md-6 {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Adjustments for card layout */
+.card {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .col-lg-4 {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+/*---footer-------*/
+.footer a{
+    text-decoration: none;
+}
+.copy{
+    text-align: center;
+    padding-left: 250px;
+}
